@@ -1,0 +1,1 @@
+此爬虫程序由PYTHON2.7编写，测试环境为Anconda，安装模块有beautifulsoup以及PYTHON内置模块

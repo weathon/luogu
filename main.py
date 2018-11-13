@@ -1,6 +1,15 @@
 #coding:UTF-8
 import urllib2
-from bs4 import BeautifulSoup as bs
+import os
+try:
+  from bs4 import BeautifulSoup as bs
+except:
+  print u'您的计算机没有安装Beautiful Soup，即将为您安装，如果需要继续安装请输入"y"'
+  if raw_input() != "y":quit()
+  if os.system("pip install beautifulsoup4")==0:
+   print u"安装成功"
+  else:
+   print u"安装失败！请手动安装！"
 import time
 
 # import urllib.request

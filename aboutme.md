@@ -1,5 +1,3 @@
-此爬虫程序由PYTHON2.7编写，测试环境为Anconda，安装模块有beautifulsoup以及PYTHON内置模块
-
 # 个人程序员兼职简历
 ## 个人资料
 - 年龄：16周岁

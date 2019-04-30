@@ -21,7 +21,7 @@
 
 - 略懂机器学习算法，会独立编写简单机器学习程序或使用现有模块编写较为复杂的机器学习程序
 
-- 略懂信息安全相关知识，在Bilibili安全应急响应中心排行第15（https://security.bilibili.com/profile/18583/ ）
+- 略懂信息安全相关知识，在Bilibili安全应急响应中心排行第15（https://security.bilibili.com/profile/18583/ ） 以该简历书写时为准
 
 ## 开发（技术）经历
 - **开发过**一个文档管理系统，见：https://github.com/weathon/New_DM
@@ -45,6 +45,10 @@
     后端可以考虑可以直接将前端通过POST传递到服务端的代码通过沙箱技术或者容器技术(个人推荐),放置于测评机中运行，并将每一步的运行结果通过WebSocket返回前端输出结果。
 
 ### 安全问题
+    
+    - 为避免XSS和SQL注入等问题（Self-XSS不考虑），所有传输到服务器的数据均需要经过编
+    - 为避免远程代码执行，待测评代码会在Docker中运行
+    - 为避免CSRF， 所有敏感请求均需要加上token
 
 ## 洛谷爬虫
 见apider.py，此爬虫程序由PYTHON3编写，需要安装requests模块

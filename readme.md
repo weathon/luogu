@@ -51,7 +51,7 @@
     - 为避免CSRF， 所有敏感请求均需要加上token
 
 ## 洛谷爬虫
-见apider.py，此爬虫程序由PYTHON3编写，需要安装requests模块
+见[spider.py](spider.py)，此爬虫程序由PYTHON3编写，需要安装requests模块
 
 
 ## 联系方式
